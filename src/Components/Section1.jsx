@@ -1,4 +1,3 @@
-import React from "react";
 import Bg1 from "../assets/bg-1.png";
 import Navbar from "./Navbar";
 import Companies from "./Companies";

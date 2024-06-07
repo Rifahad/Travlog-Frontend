@@ -1,7 +1,10 @@
-import React from "react";
-import img1 from "../assets/BACKGROUND.png";
+
 import Button from "./Button";
 import Card from "./Card";
+import Card1 from '../assets/Rectangle 6.png'
+import Card2 from '../assets/Rectangle 6 (1).png'
+import Card3 from '../assets/Rectangle 7.png'
+
 
 const Scroller = () => {
   return <>
@@ -16,10 +19,10 @@ const Scroller = () => {
             <Button arrows={"Right"} color={""}/>
         </div>
     </div>
-    <div className=" w-full h-[70%]  flex items-center justify-center">
-        <Card />
-        <Card/>
-        <Card/>
+    <div className=" w-full h-[70%]  flex items-center justify-center gap-28">
+        <Card image={Card1} />
+        <Card image={Card2}/>
+        <Card image={Card3}/>
     </div>
   </div>
   </>;
