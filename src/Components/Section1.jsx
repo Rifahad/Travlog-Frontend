@@ -3,9 +3,14 @@ import Bg1 from "../assets/bg-1.png";
 import Navbar from "./Navbar";
 import Companies from "./Companies";
 import Scroller from "./Scroller";
+import Section2 from "./Section2";
+import Section3 from './Section3'
+import Footer from './Footer'
+import Services from "./Services";
 
 const Section1 = () => {
   return (
+    <>
     <div className="pl-28 pr-28 pb-20">
       <Navbar />
       <div className="w-full h-[80vh] flex flex-col-reverse md:flex-row">
@@ -26,8 +31,13 @@ const Section1 = () => {
         </div>
       </div>
      <Companies/>
+     <Services />
      <Scroller/>
+     <Section2/>
+     <Section3/>
     </div>
+    <Footer/>
+    </>
   );
 };
 

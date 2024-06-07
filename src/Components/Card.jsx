@@ -4,7 +4,7 @@ import Card1 from '../assets/Rectangle 1.png'
 
 const Card = () => {
   return (
-    <div className=" w-[260px] max-w-sm mx-auto overflow-hidden bg-white rounded-3xl shadow-lg hover:shadow-[#5F8F15]">
+    <div className=" w-[300px] overflow-hidden bg-white rounded-3xl shadow-lg hover:shadow-black">
     <div className="relative">
       <img
         className="w-full h-48 object-cover rounded-t-3xl"
